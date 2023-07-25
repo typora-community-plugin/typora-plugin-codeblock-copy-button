@@ -1,7 +1,7 @@
 {
   "id": "typora-community-plugin.codeblock-copy-button",
   "name": "Codeblock Copy Button",
-  "description": "",
+  "description": "Add a copy button to each codeblock's top-right corner.",
   "author": "plylrnsdy",
   "authorUrl": "https://github.com/plylrnsdy",
   "version": "1.0.0",

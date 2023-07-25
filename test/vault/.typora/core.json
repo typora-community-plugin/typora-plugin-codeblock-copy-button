@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0-beta.3",
+  "settings": {
+    "githubPluginListUri": "jsdelivr",
+    "githubDownloadUri": "ghproxy",
+    "showRibbon": true,
+    "showFileTabs": true
+  }
+}

@@ -8,4 +8,4 @@
 
 ## Preview
 
-![](https://fastly.jsdelivr.net/gh/typora-community-plugin/typora-plugin-codeblock-copy-button@main/docs/assets/base.jpg)
+![](./docs/assets/base.jpg)

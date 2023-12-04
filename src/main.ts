@@ -1,4 +1,3 @@
-import * as _ from "lodash"
 import { CodeblockPostProcessor, I18n, Plugin } from '@typora-community-plugin/core'
 import { File, editor } from "typora"
 

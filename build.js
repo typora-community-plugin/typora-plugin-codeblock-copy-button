@@ -3,7 +3,6 @@ import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 import * as esbuild from 'esbuild'
 import typoraPlugin from 'esbuild-plugin-typora'
-import { sassPlugin } from 'esbuild-sass-plugin'
 
 
 const args = process.argv.slice(2)
@@ -23,7 +22,6 @@ await esbuild.build({
     typoraPlugin({
       mode: IS_PROD ? 'production' : 'development'
     }),
-    sassPlugin(),
   ],
 })
 

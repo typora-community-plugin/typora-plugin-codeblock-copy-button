@@ -16,7 +16,7 @@ specifiers:
   '@typora-community-plugin/core': ^2.0.0-beta.31
   archiver: ^5.3.2
   esbuild: ^0.19.2
-  esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.5
+  esbuild-plugin-typora: npm:@typora-community-plugin/esbuild-plugin-typora@^1.0.11
   rollup: ^4.1.4
   rollup-plugin-typora: npm:@typora-community-plugin/rollup-plugin-typora@^1.0.0
   tslib: ^2.6.2
@@ -38,7 +38,7 @@ devDependencies:
   '@typora-community-plugin/core': 2.0.0-beta.31
   archiver: 5.3.2
   esbuild: 0.19.2
-  esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.5
+  esbuild-plugin-typora: /@typora-community-plugin/esbuild-plugin-typora/1.0.11
   rollup: 4.6.1
   rollup-plugin-typora: /@typora-community-plugin/rollup-plugin-typora/1.0.0
   tslib: 2.6.2
@@ -1709,8 +1709,8 @@ packages:
       '@plylrnsdy/decorate.js': 1.0.1
     dev: true
 
-  /@typora-community-plugin/esbuild-plugin-typora/1.0.5:
-    resolution: {integrity: sha512-rBzFMuZk39FwoNEm1jYnDMt3oT6iyZBLwMlTP7hd0LA44CBz1ZEJtC6xuXhOBCcvuYPDbv9jtywbfq4a7BUBSg==}
+  /@typora-community-plugin/esbuild-plugin-typora/1.0.11:
+    resolution: {integrity: sha512-ObHzGmC8hsa9Pgzjab76xI4hqkHhaJaJa44gsD3MEE9+Fxa7xPgA//+AwKoXNBImkigEALh9QVapcNGgQU0c9A==}
     dev: true
 
   /@typora-community-plugin/rollup-plugin-typora/1.0.0:

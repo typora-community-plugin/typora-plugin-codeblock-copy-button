@@ -17,9 +17,16 @@ export default class extends Plugin {
         button: {
           text: '<span class="fa fa-clipboard"></span>',
           title: this.i18n.t.buttonCopy,
-          onclick(event, { code }) {
+          onclick(event, { codeblock, code }) {
             const normalizedCode = code.replace(/\r?\n/g, File.isWin ? '\r\n' : '\n')
-            editor.UserOp.setClipboard(null, null, normalizedCode)
+            const escapedCode = normalizedCode
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;")
+              .replace(/"/g, "&quot;")
+              .replace(/'/g, "&#39;")
+            const html = `<pre lang="${codeblock.getAttribute('lang')}">${escapedCode}</pre>`
+            editor.UserOp.setClipboard(html, null, normalizedCode, true)
           },
         }
       }))
